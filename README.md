@@ -1,4 +1,4 @@
-Para esse projeto eu escolhi explorar tanto a base da dados [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results), que compreende dados dos Jogos Olímpicos de 1896 a 2016, quanto algumas funções em SQL. Já para a montagem da visualização usando Tableau, eu escolhi focar na disparidado de gênero ao longo das edições dos jogos.
+Para esse projeto eu escolhi explorar tanto a base da dados [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results), que compreende dados dos Jogos Olímpicos de 1896 a 2016, quanto algumas funções em SQL. Já para a montagem da visualização usando Tableau, eu escolhi focar na disparidade de gênero ao longo das edições dos jogos.
 
 **Dashboard:** [Gender differences in the Olympic Games](https://public.tableau.com/views/Olympics_17172774920210/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
