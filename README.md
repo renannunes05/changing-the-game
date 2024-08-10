@@ -1,48 +1,22 @@
-Para esse projeto eu escolhi explorar tanto a base da dados [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results), que compreende dados dos Jogos Olímpicos de 1896 a 2016, quanto algumas funções em SQL. Já para a montagem da visualização usando Tableau, eu escolhi focar na disparidade de gênero ao longo das edições dos jogos.
+## CHANGING THE GAME - Female representation in Olympic History
 
-**Dashboard:** [Gender differences in the Olympic Games](https://public.tableau.com/views/Olympics_17172774920210/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
-### Conjunto de dados
+For this project I chose to analyse the [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) database, which contains Olympic Games data from 1896 to 2016. I explored the data using SQL and then I decided to focus on gender disparities to present on a dashboard.
 
-O aquivo athlete_events.csv contém 271116 linhas e 15 colunas, onde cada linha corresponde a um atleta competindo em uma modalidade olímpica.
+**Dashboard:** [CHANGING THE GAME](https://public.tableau.com/app/profile/renan.nunes/viz/OLYMPICS_17221996779570/Dashboard1)
 
-### Dicionário das variáveis
+### Dataset
 
-``ID`` - Número exclusivo de cada atleta
+The athlete_events.csv file contains 271116 rows and  columns. where each row corresponds to an athlete competing in an olympic event.
 
-``Name`` - Nome do atleta
 
-``Sex`` - M or F (masculino ou feminino)
+### Key takeaways
 
-``Age`` - Idade
+* Out of all analysed games, the one with highest proportion of female participation were the summer games held in Rio de Janeiro in 2016 representing 45% of total athletes. Vancouver 2010 had 40.7% of women competing, being the winter edition with highest female representation.
+* 120 years before, in the first edition of the modern games, no woman competed. In the next games, they represented only 1,7% of total athletes.
+* During the first edition, athletes competed in 43 different events. In 2016 this number was 306 and that 136 were female events and 9 mixed.
+* Regarding the winter games, in 90 years the number of events went from 17 to 98 events. Women’s events went from 1 to 43 and mixed ones increased from 2 to 6.
 
-``Height`` - Altura em centímetros
-
-``Weight`` - Peso em quilogramas
-
-``Team`` - Tome da equipe
-
-``NOC`` - National Olympic Committee (código de três letras que identifica os comitês olímpicos de cada país)
-
-``Games`` - Ano e Estação (Verão ou Inverno)
-
-``Year`` - Ano
-
-``Season`` - Verão ou inverno
-
-``City`` - Cidade sede
-
-``Sport`` - Esporte
-
-``Event`` - Modalidade
-
-``Medal`` - Ouro, Prata, Bronze ou NA
-
-### Conclusões
-
-Para além das informações encontradas, explorar esse conjunto de dados também foi um mergulho na história e na geografia mundial. Algumas das curiosidades encontradas foram:
-* A edição dos jogos olímpicos com maior paritipação percentual de atletas femininas foi a dos jogos de verão de 2016, no Rio de Janeiro, com cerca de 45% de mulheres.
-* Na primeira edição dos jogos modernos, em 1896, nenhuma mulher competiu. Na edição seguinte elas representaram 1,7% do total de atletas.
-* O escultor estadunidense John Quincy Adams Ward foi pessoa mais velha a competir, com 97 anos. Outra curiosidade foi descobrir que, entre 1912 e 1948, o jogos olímpicos de verão premiaram obras de arte inspiradas pelo esporte nas áreas de arquitetura, literatura, música, pintura e escultura. 
-* Já a pessoa mais nova a competir foi o ginasta grego Dimitrios Loundras, que nos jogos de 1896 tinha apenas 10 anos.
-* Na primeira edição dos jogos de verão foram disputadas 43 modalidades diferentes, enquanto nos jogos de 2016 esse número foi 306. Já nos jogos de inverno, entre primeira a última edições analisadas (1924 a 2014) o salto foi de 17 a 98 modalidades.
+Exploring this dataset was also a deep dive in world's history and geography. Some fun facts I have found are:
+* The american sculptor John Quincy Adams Ward was the oldest person to compete, at 97 years old. Personally, the most interesting past was finding out that, between 1912 and 1948, the summer games awarded works of art inspired by the sport in the fields of architecture, literature, music, painting and sculpting.
+* On the other hand, the youngest athlete to ever compete was the greek gymnast Dimitrios Loundras which was only 10 in 1896.
